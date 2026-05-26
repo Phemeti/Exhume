@@ -26,10 +26,10 @@ local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/re
 local AnimateScript = game.Players.LocalPlayer.Character.Animate
 local DissectorResults = Exhume:RunDissector(target)
 
-setclipboard(DissectorResults:GetContents())
+setclipboard(DissectorResults:GetContents()) -- Copies the contents onto clipboard, check clipboard to see the contents.
 ```
 
 ---
 
 > [!NOTE]
-> This is a pretty bad for viewing scripts, it may fail to return stuff that may be useful. And the dissector takes around 4-9 seconds to finish, depending on the script size.
+> This is a *pretty bad* for viewing scripts, it may **fail to return stuff that may be useful**. And the dissector takes around **4-9 seconds** to finish, depending on the script size.
