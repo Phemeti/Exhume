@@ -33,3 +33,5 @@ setclipboard(DissectorResults:GetContents()) -- Copies the contents onto clipboa
 
 > [!NOTE]
 > This is a *pretty bad* for viewing scripts, it may **fail to return stuff that may be useful**. And the dissector takes around **4-9 seconds** to finish, depending on the script size.
+>
+> Also, this will **not work** for low-level executors like **Xeno and Synapse**, recommended are **Volt**, **Potassium**, or **Synapse Z** (cheapest)
