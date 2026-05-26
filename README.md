@@ -9,7 +9,7 @@
 ## 🛠️ Usage
 Load the **Exhume API** using:
 ```lua
-local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/refs/heads/main/ExhumeAPI.lua', true))()
+local Exhume = loadstring(game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/refs/heads/main/ExhumeAPI.lua', true))()
 ```
 ---
 ### ⚙️ Usage Functions
@@ -21,7 +21,7 @@ local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/re
 
 ### 📝 Example script
 ```lua
-local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/refs/heads/main/ExhumeAPI.lua', true))()
+local Exhume = loadstring(game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/refs/heads/main/ExhumeAPI.lua', true))()
 
 local AnimateScript = game.Players.LocalPlayer.Character.Animate
 local DissectorResults = Exhume:RunDissector(AnimateScript)
