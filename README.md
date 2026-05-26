@@ -24,7 +24,7 @@ local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/re
 local Exhume = game:HttpGet('https://raw.githubusercontent.com/Phemeti/Exhume/refs/heads/main/ExhumeAPI.lua', true))()
 
 local AnimateScript = game.Players.LocalPlayer.Character.Animate
-local DissectorResults = Exhume:RunDissector(target)
+local DissectorResults = Exhume:RunDissector(AnimateScript)
 
 setclipboard(DissectorResults:GetContents()) -- Copies the contents onto clipboard, check clipboard to see the contents.
 ```
